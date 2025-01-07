@@ -20,14 +20,14 @@ public/css/main.css
 coverage
 
 # API keys and secrets
-.env
+.env/
 
 # Dependency directory
-node_modules
+node_modules/
 bower_components
 
 # Editors
-.idea
+.idea/
 *.iml
 
 # OS metadata
