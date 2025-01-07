@@ -15,29 +15,29 @@ This project sets up a minimalist HTTP API in TypeScript, with the following fea
 # Getting started
 - Clone the repository
 ```
-git clone https://github.com/MartiFiak/WIK-DPS-TP01_JM.git <project_path>
+$ git clone https://github.com/MartiFiak/WIK-DPS-TP01_JM.git <project_path>
 ```
 
 - Install dependencies
 ```
-cd <project_path>
-npm install
+$ cd <project_path>
+$ npm install
 ```
 
 - Build & run the project
 ```
-tsc build/index.js
-node build/index.js
+$ npx tsc
+$ node build/index.js
 ```
 
 # API
 - Request
 ```
-curl -i http://localhost:3000/ping
+$ curl -i http://localhost:3000/ping
 ```
 
 # Configuration
 - Set a custom port
 ```
-export PING_LISTEN_PORT=4000
+$ export PING_LISTEN_PORT=<PORT_TO_CUSTOM>
 ```
